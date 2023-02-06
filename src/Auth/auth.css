@@ -1,0 +1,103 @@
+.container {
+  width: 100vw;
+  padding: 0 12.5vw;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  height: 100vh;
+  overflow: hidden;
+}
+.left {
+  left: 0px;
+  height: 100%;
+  width: 984px;
+  overflow: hidden;
+}
+.left > img {
+  padding: 48px;
+  object-fit: fill;
+  height: 86%;
+  width: 100%;
+}
+.right {
+  padding: 48px;
+  height: 100%;
+  width: 456px;
+  display: flex;
+}
+.mainContainer {
+  /* border: black solid; */
+  width: 100%;
+  height: 86%;
+}
+p {
+  width: 360px;
+  height: 28px;
+  font-family: sans-serif;
+  padding-bottom: 24px;
+  white-space: 0;
+  text-align: left;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+}
+.formDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+
+  width: 360px;
+  height: auto;
+}
+.logo {
+  width: 100%;
+  height: 96px;
+}
+
+.formDiv > form {
+  display: flex;
+  gap: 16px;
+  flex-direction: column;
+}
+
+a {
+  text-decoration: none;
+  color: #007aff;
+  height: 100%;
+  top: 0;
+  text-align: end;
+  font-size: 10px;
+}
+.signUp {
+  font-size: 10px;
+  margin-top: 32px;
+  font-weight: 600;
+}
+.none {
+  display: none;
+}
+.Abtn {
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 24px;
+  border: none;
+  width: 360px;
+  height: 40px;
+  /* System-Blue (#007AFF) */
+  background: #007aff;
+  color: white;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.error {
+  font-size: 10px;
+  color: red;
+  margin-top: 32px;
+  font-weight: 600;
+}

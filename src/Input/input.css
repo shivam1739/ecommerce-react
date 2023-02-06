@@ -1,0 +1,48 @@
+input {
+  padding: 0 10px;
+  margin-top: 8px;
+  box-sizing: border-box;
+  height: 48px;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+
+  /* Black-50 (#F2F2F2) */
+
+  background: #f2f2f2;
+  /* Black-100 (#E5E5E5) */
+
+  border: 0.5px solid #e5e5e5;
+  border-radius: 6px;
+}
+
+.none {
+  display: none;
+}
+.field > label {
+  padding-left: 10px;
+  text-align: left;
+  width: 328px;
+  height: 12px;
+
+  /* Hint-Placeholder */
+
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 12px;
+  /* identical to box height, or 109% */
+
+  letter-spacing: 0.3px;
+}
+.field {
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  width: 360px;
+  height: 68px;
+
+  /* Inside auto layout */
+}

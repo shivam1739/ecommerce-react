@@ -1,0 +1,8 @@
+img {
+  height: 495px;
+  width: 400px;
+  object-fit: fill;
+  border-radius: 15px;
+  box-shadow: 10px 10px 5px rgb(85, 106, 113);
+  margin: 15px;
+}
